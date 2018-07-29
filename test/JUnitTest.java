@@ -14,7 +14,6 @@ import org.junit.Test;
 //IDE automatically imported these
 
 /**
- *
  * @author Naomi Campbell
 */
 
