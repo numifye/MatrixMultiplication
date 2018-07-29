@@ -14,12 +14,20 @@ In my tester, I tested the time it took for the Simple method and Strassen's met
 
 RUNNING TIMES:
 n = 2		time: Regular 0 seconds, Strassen's 0 seconds, both 0 seconds
+
 n = 16		time: Regular 0 seconds, Strassen's 0 seconds, both 0 seconds
+
 n = 512		time: Regular 0 seconds, Strassen's 25 seconds
+
 n = 1024	time: Regular 32 seconds, Strassen's, 2 minutes 54 seconds
+
 Other Times:
+
 n = 2048	time: Regular 1 minute 44 seconds
+
 n = 4096	time: Regular 24 minutes 56 seconds
+
+
 
 NOTE: All of these times include the time it took to add random elements into the matrices when creating them. For the straight-forward 4096x4096 matrix I included the time it took to add random elements into each matrix and also print the final matrix, not just the method itself, which may reflect a higher number.
 
