@@ -1,6 +1,6 @@
 # MatrixMultiplication
 
-Project 1 Part 1 Report:
+Report:
 
 
 I have three classes: Matrix, MatrixMultiplication, and JUnitTest. In the Matrix class, I implemented the straight-forward matrix multiplication algorithm and Strassen's multiplication algorithm. The runtime of the straight-forward algorithm is THETA(n^3) because there are three for loops, each of which traverse through the array up until the value of n (which is the length of the array). According to the text, and by analyzing Strassen's algorithm, the runtime is THETA(n^lg7). I included a breakdown of Strassen's method using comments in the Matrix class.
